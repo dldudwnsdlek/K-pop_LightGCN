@@ -139,35 +139,6 @@ K-pop 곡의 아티스트가 지식 그래프에 존재할 경우, 아티스트 
 
 ---
 
-## 환경 및 의존성
-
-```
-Python 3.x
-torch
-torch_geometric
-numpy
-pandas
-scipy
-tqdm
-matplotlib
-seaborn
-```
-
-설치:
-```bash
-pip install torch torch_geometric numpy pandas scipy tqdm matplotlib seaborn
-```
-
----
-
-## 실행 방법
-
-1. 멜론 플레이리스트 데이터셋과 Kaggle K-pop 데이터셋을 준비한다.
-2. Google Drive 경로(`/content/drive/MyDrive/melon/`)에 데이터를 배치한다.
-3. `melon_code.ipynb`의 셀을 순서대로 실행한다.
-
----
-
 ## 기대효과
 
 - K-pop 팬이 선호하는 아티스트의 솔로·유닛·콜라보레이션 활동을 자연스럽게 추천
